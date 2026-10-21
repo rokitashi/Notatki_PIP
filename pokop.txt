@@ -1,0 +1,145 @@
+Podstawy konstrukcji maszyn :/
+
+Iwaszko - poleca do obliczeń połączeń gwntowych
+Baranowski - poleca do obu kolokwiów
+Kurmaz - poleca do rysunków
+Dietrich i Skoć - ogólne książki
+
+Prowadzący podaje na wykładach o co będzie i nie będzie pytać 
+
+Będzie pytać:
+	- Podać wzór Hubera/podany wzór i trzeba podać nazwisko; wytłumaczyć czego dotyczy każdy ze składników
+	- Narysować wykres granicy plastyczności, nazwać elementy itp
+	- Oznaczenia naprężeń (kr itp)
+	- znajomości indeksów wytrzymałości zmęczeniowej (wahadłowy, tętniący)
+	- podane oznaczenie gwintu i trzeba opisać lub podać oznaczenie gwintu (np. trapezowy 60x15 trzykrotnego lewego), trzeba umieć to rozpisać
+	- tylko gwint zewnętrzny (śruby), trzeba umieć narysować taki gwint, nastepnie umieć podać i narysować i określić nazwy średnic (głównie d, d2, d3), oznaczyć skok gwintu, narysować i podać wartość kąta zarysu
+	- umiec narysować kształt gwintu zewnętrzengo trapezowego, podać średnicę d, d2, d3, skok, kąt zarysu (30[deg])
+	- umieć narysować zaryz gwintu zewnętrznego trapezowego niesymetrycznego, podać średnicę d, d2, d1?, d3, kąt zarysu (30[deg])
+	- wymienić rodzaje gwintów ze względu na różne klasyfikacje (stopnie, poziomy klasyfikacji), 
+	- co to gwint toczny
+	- wyjasnienie co oznaczają klasy własności mechanicznych (ale nie trzeba pamiętać konkretnych)
+	- wymień mechaniczne sposoby zabezpieczenia zlącz śrubowych przed odkręcaniem (nie rysowanie!), np. 8
+	
+Nie będzie pytać:
+	- Co to jest konstruowanie, definicja itp; Projekt, definicja itp
+	- Czym jest model
+	- Rodzaje stali
+	- współczynniki opisujące charakter cyklu
+	- szczegóły osiowania gwintu trapezowego
+	- oznaczeń czegoś (nie pamiętam)
+	- gwint prostokątny
+	- zakończenia (łby) śrub, typy podkładek, śrub
+
+Maszyną można nazwać samochód ale też obrabiarkę
+
+Urządzenie - szersze określenie, nie musi mieć napędu
+
+Urządzenie a mechanizm - urządzenie to całość, służy do wykonania całego zadania a mechanizm służy do konkretnej czynności (np. przesunięcie tłoka, przesunięcie wskazówki zegara)
+
+Części połączeń - nity, śruby. ogólnie jak coś jest połączone
+
+Łożyskowania - tam gdzie element musi mieć podparcie i musi się obracać (o tym będzie mało)
+
+Części napędu - pzekładnie, mechanizmy śrubowe, dźwigniowe itp
+
+Modelowanie dzieli się na
+	- Doświadczalne: opiera się na podobieństwie fizcznym - budujemy makietę podobną ale mniejszą obiektu (np. model samochodu do tunelu aerodynaimcznego) oraz
+	analogii fizycznej - budujemy zupełnie inny ale analogiczny układ, dzieki czemu możemy badać pewne zjawiska i odnieść je do naszego obiektu
+	- Matematyczne: opiera się na analizie poprzez programy komputerowe
+
+Odkształcenia proste - podstawowe
+Odkształcenia złożone - wtedy, gdy działa kilka odkształceń prostych i się sumują - musimy obliczyć wytrzymałość złożoną
+	- jeżeli mamy tylko naprężenia styczne lub tylko normalne to możemy je sumować dzieki zasady superpozycji
+	- jeżeli występują oba, to trzeba użyć hipotez wytrzymałościowych (prezentacja)
+
+"Skupimy się" na hipotezie Mietesa Hubera Treski (może być ważne)
+
+Wykres:
+	- oś y: naprężenia F/A, oznaczenie to sigma
+	- oś x
+	- prawo Hooke'a, proporcjonalność odkształcenia do wydłużenia
+	- Rh - granica proporcjonalności (prawo hooke'a)
+	- Rs - granica spręzystości
+	- Re - umowna granica plastyczności, płynięcie materiału, bardzo ważna granica, odkształcenie trwałe które nie zagraża konstukjcji w dużym stopniu
+	- 0,2% wydłużenia, tworzymy prostą równoległą, wyznaczamy dzięku temu umowną granicę plastyczności
+
+Warunki wytrzymałościowe, naprężenia dopuszczalne
+	- dana część nie może w czasie pracy ulec zniszczeniu (wytrzymałości)
+	- odkształcenia danej części muszą być możliwie małe i sprężyste (sztywności)
+	- naprężenia dopuszczalne - naprężenia które mogą występować w materiale bez obawy naruszenia warunku wytrzymałości i sztywności
+	- oznaczenia naprężeń:
+		- kr - rozciąganiu
+		- kc - ściskaniu
+		...
+	- n - współczynnik bezieczeństwa
+	- kr = Rm/n (mat. kruche)
+	- kr = Re/n (mat. plastyczne)
+	- materiał kruchy nie wykazuje punktu przegięcia
+
+Pełzanie - materiały poddane obciążeniu w bardzo długim czasie
+
+PX - podziałka
+	P8 - dwukrotny gwint
+
+d 	- średnica nominalna, zewnętrzna
+d1	- minimalna średnica gwintu, średnica otworu nakrętki
+d2	- średnica podziałowa
+d3	- średnica rdzenia - średnica minimalna zarysu gwintu, poniżej jej jest pełny przekrój kołowy śruby
+D 	- średnica nominalna wewnętrzna
+P 	- skok
+
+
+gwint metryczny kąt a = 60[deg]
+gwint trapezowy kąt a = 30[deg]
+
+powierzchnią roboczą gwintu trapezowego niesymetrycznego jest ta o nachyleniu 3[deg]
+
+gwint prostokątny jest nieznormalizowany i bardzo rzadko używany
+
+klasyfikacje gwintów
+	- zewnętrzne i wewnętrzne
+	- metryczne, calowe
+	- jednokrotne, wielokrotne
+	- zwykłe, drobnozwojne
+	- prawe, lewe
+	- samohamowne, niesamohamowne
+	- symetryczne, niesymetryczne
+	- walcowe, stożkowe
+	- znormalizowane (PN, PN-ISO, PN-EN, normy branżowe)
+	- złączne (spoczynkowe), pociągowe (ruchowe)
+	
+Gwint toczny - gwint w którym znajdują się kulki łożyskowe aby zminimalizować tarcie. czasem stosowany smar do łożysk
+
+Przewężenie śruby może działać korzystnie na wytrzymałość śruby w niektórych przypadkach. Taka śruba może o wiele łatwiej ulegać naprężeniom i nie pękać. Dokręcanie głowic silników spalinowych. 
+
+klasy własności mechanicznych
+	- wartość przed kropką razy 100 daje wytrzymałośc na rozciąganie w MPa
+	- druga liczba jako dziesiętna (po kropce) razy Rm = Re
+	- przykład: 9.8 to wtedy 9x100 = RM i 0.8 * Rm = Re
+
+Sposoby zabezpieczenia złącz
+	- zawleczka
+	- podkładka odginana jednołapkowa, dwułapkowej
+	- podkładka odginana z noskiem zewnętrznym, wewnętrznym (nosek już jest wygięty wcześniej)
+	- podkładka sprężysta
+	- podkładka zębata (dla nakrętki łozyskowej)
+	- podkładka zębata z ząbkami na zewnątrz lub wewnątrz
+	- kontrnakrętka
+	- drut (przewlekany i zaciskany)
+	- podkładki stożkowe
+	- punktowanie boczne, czołowe, w rowek (wgłębienie części śruby które blokuje się w otworze)
+	- spawanie, lutowanie
+	- śruba bez łba z końcem stożkowym, czopem walcowym (końcówka wchodzi w element)
+	- pierścienie okrągłe sprężynujące
+	- farby lub kleje anaerobowe
+
+Klej anaeobowy - klej który wiąże pod wpływem kontaktu z metalem (w wyniku obecności jonów np. żelaza)
+
+Mechanizm działania kontrnakrętki: naprężenia śruby rozchodzą się w kilku kierunkach dzięki czemu śruba się blokuje
+
+
+Gwint jako maszyna prosta (najtrudniejsza rzecz wg. prowadzącego)
+
+ds - średnica średnia, leży idealnie w połowie gwintu. często porównywana z d2 ale technicznie nie jest równa
+

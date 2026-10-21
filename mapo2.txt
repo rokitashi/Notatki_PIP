@@ -1,0 +1,38 @@
+obecność = 0,5 oceny w górę
+
+możliwość zerówki
+
+
+Farba drukowa - zawiesina barwidła w substancji dyspergującej (rozpraszającej w spoiwie)
+	- barwidła zazwyczaj nie rozpuszczają się, są to substancje stałe
+
+Farby procesowe - triada CMYK
+Farby specjalne - mechaniczne, pantone, przewodzące prąd itp.
+
+liczba zdyspergowanego pigmentu wpływa na jakość farby - im więcej tym lepiej
+spoiwo nie powinno wchodzić w reakcje z barwidłem
+
+środki powierzchniowo czynne (surfaktanty) - modyfikują napięcie powierzchniowe
+
+czarne - trudnozwilżalne
+
+Produkcja farb offset arkuszowych
+	- ucieranie farb w trójwalcówce
+	- ucieranie farb w młynach kulowychz
+
+Łopatkowe - przepływ osiowy
+Radialne - przepływ radialny?
+
+Wymagania wobec spoiw - żeby nie reagowały z pigmentami, żeby się dobrze mieszały, żeby barwa była jak najbardziej neutralna, spoiwo decyduje o odporności na ścieranie
+Najważniejsze etapy produkcji farb - mieszanie w mieszalnikach (różne warianty), łączenie spoiwa z barwidłem, ucieranie, dodawanie innych dodatków, ucieranie ucieranie, ewentualnie zostawić w celu dojrzenia/przegryzienia
+Urządzenia do ucierania - mieszalniki, dissolvery, ucieraczki
+Budowa trójwalcówki - 3 walce obok siebie (pion poziom), walce różnią się prędkością
+Dissolver - mieszalnik wysokoprędkościwy
+Młyny kulowe - młyny z kuleczkami w środku
+Produkcja farb ciekłych - jest w slajdach :>
+
+grubość farby w mikrometrach
+	- najgrubsza w sitodruku
+	- najcieńsza w offsecie
+
+

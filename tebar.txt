@@ -1,0 +1,135 @@
+Rozkład jazdy (zajęcia)
+1, 2 - gm. fizyki
+3, 4 - gm. architektury
+5, 6, 7, - gm. ztp
+8, 9, 10, 11 - laboratorium percepcyjne, teren główny
+12, 13, 14 - projekt, laboratorium badań percepcyjnych
+
+Substancje barwiące:
+	- barwnik: postać płynna, nanoszenie i wiązanie
+	- pigment: postać bardziej stała, aby mógł się rozpuścic
+
+Barwa zależna od:
+	- światła, widma
+	- substancji barwiącej
+	- tego co zarejestrują fotoreceptory
+
+"Barwa jest subiektywna, istnieje tylko w naszej głowie. Zjawiska wewnętrzne są dla nas najważniejsze"
+
+Widmo światła
+	fale EM powstają gdy jest ruch elektryczny. Zmienne pole magnetyczne powoduje zmienne pole elektryczne, które z kolei wytwarza... coś
+
+	fale widzialne
+	mikrofale - mikrofalówki i komórki
+	podczerwień - temperatura. gdy temperatura osiągnie 2000 stopni Celsjusza to wpada w światło widzialne, tak jak podgrzewana stal
+	widzialne od 380 do 780 nm (10^-9), czestotliwość od 380 do 780 THz (10^12)
+	ultrafiolet - od opalania do wystarczająco mocnego ma właściwości bakteriobójcze
+	rentgen - przechodzi przez tkanki miękkie i zatrzymuje się na tkankach twardych. jest to defacto cień. wpływa na cząsteczki ciała, potrafi rozbijać białka
+	gamma - wchodzimy w cząsteczki, fotony. bardzo energetyczne, powstające w procesach, rozpadahc jądrowych. potrafi rozbijać atomy
+
+barwa ciepła - więcej zawartości czerwonego światła
+barwa zimna - więcej niebieskiego
+
+Żródła światła
+	- słońce, pełne spektrum, ciągłe, maksimum dla niebieskozielonego
+	- żarowe, ciągłe, maksimum na czerwieni, bardzo mało niebieskiego 
+	- żarówki ledowe, niebieska dioda LED, warstwa forsoru luminoforu. spektrum składa się z peaku niebieskiego od ledu i reszty żółci i czerwieni od luminoforu
+
+Wielkości fizyczne światła
+	- Candela: światło emitowane przez świecę w jedym kierunku
+	- Natężenie światła (irradiancja) [W/m^2]: ile enerii przejdzie przez powierzchnię jednostkową w czasie jednej sekundy. Miernik posiada dyfuzor
+	- Radiancja (strumień światła): jednostka emitowana w kierunku kąta bryłowego. Daleko - minejszy kąt bryłowy, Blisko - większy kąt bryłowy. Miernik posiada układ soczewek
+	- kąt bryłowy - jeżeli pole R2 jest równe promieniowi R (taki stożek) to jest to jeden steradian? (radian przestrzenny czy jakoś tak)
+
+Iluminnacja
+Porównywanie światła opiera sie na porównywaniu funkcji czułości ludzkiego oka. Sprawi, że niektóre częstotliwości będą słabsze bo są mniej ważne. 
+dzieje się to po przemnożeniu przez kształt V(lambda), która ma kształt dzwona. powierzchnia pod jedną i drugą krzywą określa jasność światła
+
+Waty na żarówce to "ilość światła jaką wysyła". moc promienista to moc razy czułość oka
+
+Natężenie promieniowania razy czułość oka daje nam lux. 
+
+candela to odpowiednik radiancji razy czułość oka
+
+Źródła wzorcowe to takie do których jest przypisane konkretne widmo. Do tego są zdefiniowane iluminanty (np. D65) aby można było odtworzyć w każdych laboratoriach barwę.
+
+Współczynniki załamania: n1 sin(theta1) = n2 sin(theta2) gdzie n to transmisja
+	- powietrze 1
+	- skło 2/3
+	- woda 4/3
+
+Przy odbiciu i załamania, część światła się odbija a część przechodzi. jest jeden kąt w którym odbija się tylko światło spolaryzowane równolegle do powierzchni.
+
+Polaryzacja fali to kierunek drgań jej fal.
+
+Transmisja - przenikanie światła przez materiał
+	n = c/v, gdzie c to prędkość światła w próżni a v to prędkość światła w materiale
+
+Bezbarwność - sytuajca w której światło jest transmitowane przez obiekt i odbita jest tylko bardzo niewielka część (wynika to z fizyki)
+
+Każda barwa zostaje załamana pod innym kątem
+
+Prędkość światła w ośrodku zalezy od prędkości fali, dlatego w pryzmacie następuje rozszczepienie światła
+
+około 10% światła jest zawsze odbite przy przejściu przez szkło, przy założeniu brako absorbcji
+
+Absorpbcja, pochłanianie światła - całkowita absorbcja zachodzi przy idealnie czarnej matowej powierzchni
+
+Profil absorbcji to jakie długości zostały zatrzymane, a profil transmisji to takie które zostały przepuszczone
+
+im grubsze ciało lub większe stężenie barwy tym większa absorbcja
+
+A(lambda) = epsilon(lambda)*c*l, gdzie l to grubość
+
+Rozpraszanie 
+	- idealne - odbicie przy idealnym zwierciadle
+	- półołysk - lekko rozproszone
+	- idealny dyfuzor - idealne rozproszenie światła w każdym kierunku
+
+Im bardziej chropowata powierzchnia tym mniej wyraźny obraz odbity; im więcej odbija się światła tym jaśniejszy odbity obraz
+Dwukierunkowa funkcja rozkładu odbicia (wygląda jak rozkład normalny), w skrócie BRDF
+
+Połysk ma 6 rodzajów
+	- zwierciadlany: ładne obrazy, gładka powierzchnia, "widzimy obraz"
+	- pod kątem ślizgowym: refleksy pod małym kątem padania, w środku obrazu nie ma
+	- kontrastowy: duży kontrast między widzianą powierzchnią a odbiciem
+	- brak poświaty: jak nie ma poświaty to obraz jest barziej wyraźny
+	- wyrazistość obrazu: kategoryzowany tak jak wyraźny jest obraz
+	- chropowatość powierzchnia: gładka powierzchnia lepiej odbija
+
+Rozpraszanie wewnętrznie: przykładem jest niebo, atmosfera. w powietrzu są cząstki które rozpraszają nam światło. jak światło pada na cząstkę to przechodzi przez nią i wychodzi pod wieloma kątami
+	- cząsteczki mniejsze niż długość fal blokują najłatwiej niebieskie cząstki, dlatego niebo jest niebieskie a słońce jest bardziej żółte. duże cząstki rozpraszają już wszystkie kolory więc chmury są białe
+
+	Barta - odczucie którego dokładnie nie moża obliczy, jest subektywna
+
+	Colour index - bada zadnych koloów
+
+Luminestencja - materiał pochłania śiatło na rzecz emitowania innego światła
+	- przykadem są np. kamizelki odblaskowe, znaki ewakuacyjne
+	- jeżeli oświetlimy światłem A to przy oświetleniu światłem B zobaczymy inną luminestencję
+
+
+Materiały o wyglądzie zależnym od geometrii oświetlenia i obserwacji
+
+Materiał Lambertowski - odbija światło równom identyncznie w każdym kierunku
+
+Materiał Goniowizualny - inna barwa odbita  wkierunku odbicia zwierciadlengo a inny w kierunku obserwacji
+
+Anizotropowy - efekt zależny od kierunku patrzenia
+Izotropowy - niezależny od kierunku
+
+Materiały metaliczne zmieniają światło odbite na barwę metalu. płatki są nieprzezroczyste, mogą być równe lub poszarpane
+
+Duże płatki metali - dokładnie podkreślone kształty, głębszy efekt, duża różnica między kątem patrzenia
+Małe płatki - bardziej rozpraszają, mniej widoczne kształty, mniejsza różnica między kątem patrzenia
+
+Materiały perłowe - miękki połysk, duża głębia wyglądu. płytki cieknie i przezroczyste o dużym współczynniku załamania
+
+Materiały interferencyjne - światło odbija się od dolnej i od górnej warstwy, po czym będą ze sobą interferować. efeketmen są np. rybie łuski dające efekt tęczy. barwa odbita zależna od grubości płytki
+
+Materiały dyfrakcyjne - złożone z pasków, materiał pokryty kolorowymi paskami teczowych kolorów. materiały dyfrakcyjne włożone w podłoże dają efekt holograficzny, wygląda trochę jak kosmos/mgławice
+
+Fotochromizm i termochromizm
+	- fotochromizm: zależność barwy od natężenia światła uv
+	- termochromizm: zależność bardy od temperatury
+	- zmiana barwy jest odwracalna
