@@ -1,0 +1,135 @@
+komputerowe przetwarzanie obrazów graficznych
+- grafika wektorowa
+- grafika rastrowa
+
+zaliczenie: egzamin w sesji
+
+jest możliwość egzaminu zerowego!
+warunek - przynajmniej połowa roku na wykładach
+
+teams: kogra_2026
+	- prezentacje wykładowe, hasło: kogra+@2020
+	- instrukcje do ćwiczeń
+	- przykłady do ćwiczeń
+
+wektoryzacja to przeciwieństwo rasteryzacji
+
+wektoryzacja fotografii będzie często większym plikiem
+
+równania róznego stopnia beziera polegają na obliczaniu punktów Px i rysowainem między nimi krzywej
+
+EPS (Encapsulated PostScript)
+
+	Ilustrator bazuje na EPS - encapsulated postscript, format zapisu AI jest defacto EPSem
+	Obok zapisu całeśj strony, postscript tworzy podglądową mapę bitową niskiej rozdzielczości w celu pomocy do składu. Wymyślono dlatego, że 
+	kiedyś nie było podglądu, interpretera postscriptu. Dodatkowo jest to po prostu szybki podgląd
+
+	EPS musi mieć osadzony font aby wyświetlić go poprawnie w innym programie
+
+Hinting to proceduty zapisane w teksćie pozwalające na lepsze wyświetlanie tekstu.
+Zamiana na krzywe ma sens przy krótkich tekstach
+
+PDF (Portale Document Format)
+
+	Stworzony na bazie PostScript level 2
+	można zapisać wszystko, fonty, grafiki, filmy, dźwięki, komentarze
+	W poligrafii składamy PDFX, który nie pozwala na zapis wyżej wspomnianych dodatków które mogą zaburzać pracę drukarni
+
+SVG (Scalable Vector Grapics)
+
+	format natywny
+
+WMF (Windows Metafile Format)
+
+	16 bitowy format stworzony żeby windows działał (microslop)
+	zamienia linię na wypełnienie
+
+Sztuka projektowania logo
+	- wymaga znajomości marketingu i psychologii
+
+Kółko graficzne - przychodzi grafik z pomysłami, następnie kolejne osoby z działów redagują logo i podrzucają swoje pomysły. na końcu okazuje się, że grafik miał rację i zostaje oryginalny pomysł
+	- nie robić więcej niż 2 czy 3 pomysły
+
+Logo
+	- w skład logo wchodzi: znak graficzny (sygnet) oraz logotyp (część liternicza)
+	- sygnet + logotyp = logo
+	- monogram = logo
+	- czy znak złożony tylko z liter można nazwać logo? tak, ponieważ to nie jest ścisłe. ważne, żeby znać różnicę między logotypem a sygnetem
+
+Cechy dobrego logo
+	- dopasowanie
+	- prostota
+	- uniwersalność
+		- skalowalność
+		- wariantowość
+	- oryginalność
+	- ponadczasowość
+
+Dopasowanie: 
+	- przed tworzeniem logo należy określić cele stawiane przed nowym znakiem
+	- logo powinno być symbolem firmy, odzwieriedlać charakter marki oraz wartości
+	- przesłanie jest istotne
+	- nawiązywanie do historii firmy, symboliki, wizerunku rynkowego, obszaru działalności firmy, cech marki
+	- częstym błędem jest sprowadzanie projektu wyłącznie do walorów estetycznych - czyli bez przesłania
+
+Prostota:
+	- logo jest symbolem, skrótem myślowym
+	- proste logo z niewielką ilością kolorów daje najlepsze efekty
+	- wszystkie elementy graficzne powinny tworzyć jeden wspólny znak
+	- dobre logo powinno się dobrze odtworzyć i zapamiętać
+	- nowe kształty buduj z prostych elementów
+
+Oryginalność:
+	- logo to podstawowy wyróżnik który powinien indentyfikować firmę wśród wielu innych marek
+	- unikalne i niepowtarzalne
+	- pierwsze skojarzenia i metafory najlepsze ale czasem warto szukać głębiej
+	- logo nie musi być dosłowne
+	- może być abstrakcyjną formą 3D
+	- dobry pomysł to połowa sukcesu
+
+Uniwersalność
+	- skalowność - konstrukcja musi zapewniać właściwą prezentację na różnych nośnikach
+	- kształt - powinno zamykać się w kształcie kwadrawu
+	- zapis - powinno być zapisane jako wektor przy druku oraz jako raster dla zastosowań cyfrowych
+	- wariantowość - logo powinno dobrze prezentować się w postaci monochromatycznej jak i kolorowej. dodatkowo wersje logo mogą obejmować pion i poziom
+	- png nie zapisuje cmyka. różnica koloru w róznych plikach albo nawet w tym samym pliku wynika z różnic silnika który jest zastosowany w programie
+
+Barwy - unikać jaskrawych barw, nie więcej niż 3 kolorów
+Typografia - unikać więcej niż 2 krojów pisma. używać ostrych linii pisma dla dynamcznych firm a miękkich dla łagodnych marek
+Forma - pozbyć się wszystkiego co nie jest konieczne. idelany projekt to taki w którym nie można nic ująć. logo powinno dobrze wyglądać niezależnie czy jest małe czy duże. logo rozpoznawalne gdy odwrócone kolory
+Opinie - nie słuchaj destrukcyjnych opinii. słuchać się ludzi którzy wiedzą jakie są cechy dobrego logo 
+Oryginalność - nie łącz elementów popularnych znaków. nie używać gotowych grafik, unikać podążania za trendem
+
+skutki braku pasowania:
+	- dublowanie tekstu: kilka kolorów które odbiegają od siebie; tekst został zrobiony w RGB a potem przekonwertowany do CMYK
+	- błędne kolory
+	- efekt zabarwienia tekstu w kontrze
+
+brak pasowania na reprodukcji zdjęć
+	- nieostrość i rozszczepienie kolorów w skali micro
+
+rozetka z punktem w środku jest mniej wrażliwa na odchyłki
+
+Układu nie wymagające trappingu:
+	- rysunki komiksowe z widocznym czarnym konturem
+
+Overprint (nadruk) i Knockout (wycięcie, wybranie)
+	- overprint przy kolorze czarnym jest dobry, nie wygląda źle
+	- czarne rysunki kreskowe (kody kreskowe) nie powinny być drukowane z użciem innych barw składowych niż czarna
+	- przypadek szczególny z czarnymi tekstami na różnych tłach: jeżeli nie ma kolorów podkładowych to czarny będzie wyblakły
+
+BARDZO WAŻNY SLAJD - ten z dwiema literami A o nadlewce itp. po nim jest slajd o wyświetlaniu czarnych obiektów w ilustratorze i indesign
+JESZCZE WAŻNIEJSZY SLAJD - Nadlewka czy podlewka. wyjaśnia całą procedurę tworzenia nadlewek i podlewek
+	- jeżeli mamy do cynienia z jasnym tle a na jasnym tle ciemny kolor, to generowana jest zalewka/nadlewka, to jasny kolor wchodzi do ciemnego
+	- ciemne tło i jasny obiekt - tworzy się podlewka, powiększając obiekt
+warto włączyc podgląd nadruków
+
+należy unikać tekstów o małych stopniach pisma i więcej niż z dwóch kolorów
+
+na sprawdzian: przykłady, tekst i tło opisane jako sładowe i trzeba będzie określić procentowy skład zalewek
+jeżeli są wspólne barwy składowe to trapping jest niepotrzebny
+	- 1 przykład tekst 20/60/20 i tło 10/10/10, trapping = dzięki wspólnym barwom składowym, trapping jest zbędny
+	- 2 przykład tekst y20/m20 i tło c60/k60, nie ma wspólnych składowych. trapping = nadlewka (jasne na ciemnym tle), może być suma (y20/m20/c60/k60) ale lepszą opcją jest suma zderukowana (y10/m20/c30/k30)
+	- 3 przykład tekst k100 i tło c20/m20/y20, tylko czarny tekst więc stosujemy overprint
+
+przypadek specjalny dla kolorów spotowych (barwy specjalne to te które nie wchodzą w triadę cmyk). Nadlewamy kolor specjalny jako ostatni na inne kolory z triady. 
