@@ -1,4 +1,3 @@
-Autorem notatek jest Bartek Rokita
 
 obecność = 0,5 oceny w górę
 
